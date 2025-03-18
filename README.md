@@ -50,7 +50,10 @@
 
 ---
 
-## 🚀 실행 방법
+## 🚀 실행
 1. Python과 OpenCV가 설치되어 있어야 합니다.
    ```bash
    pip install opencv-python numpy
+---
+## Demo
+[Watch on YouTube](https://youtu.be/WOxe40jinDc)
