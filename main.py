@@ -96,7 +96,7 @@ while True:
             fourcc = cv2.VideoWriter.fourcc('X', 'V', 'I', 'D')
             count_video = len(os.listdir(outPut_Video_folder))
             out = cv2.VideoWriter(os.path.join(outPut_Video_folder,f'out_put_video{count_video + 1}.avi'), fourcc, 30, frame_size, isColor=True)
-            print(f'out_put_Video{count_video + 1}.jpg save successful! to {outPut_Video_folder}')
+            print(f'out_put_Video{count_video + 1}.avi save successful! to {outPut_Video_folder}')
 
     #polygon
     elif key == ord('d') and len(points) > 2:
